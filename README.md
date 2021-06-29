@@ -13,4 +13,4 @@ Project is created with:
 * JavaScript
 	
 ## Setup
-To run this project, open index.html on any browser.
+To run this project, open index.html on any browser. //
