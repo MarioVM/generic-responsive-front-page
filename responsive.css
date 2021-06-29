@@ -1,0 +1,140 @@
+
+/* media queries */
+html {
+  font-size: 50%;
+}
+@media (max-width: 663px){
+    header nav ul li a{
+        padding: 1.0rem;
+    }
+}
+
+@media (max-width: 630px) {
+
+  .hero .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .hero .container img {
+      order: -1;
+  }
+
+  .form-group {
+      display: block;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+ .row .offcards {
+     display: none;
+ }
+}
+
+@media (max-width: 588px){
+    header nav ul li a{
+        padding: 0.9rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 554px){
+    header nav ul li a{
+        padding: 0.8rem;
+        font-size: 1.2srem;
+    }
+}
+
+@media (max-width: 549px){
+    header nav ul li a{
+        padding: 0.7rem;
+        font-size: 1.1srem;
+    }
+}
+
+@media (max-width: 540px) {
+  nav {
+      display: none;
+  }
+#b01 {
+display: none;
+}
+  .one,
+  .two,
+  .three {
+      background-color: #fff;
+      height: 2px;
+      width: 60%;
+      margin: 6px auto;
+
+      transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+      width: 40px;
+      height: 30px;
+      margin-right: 20px;
+  }
+
+  /* fullscreen */
+  .menu-section.on {
+      position: absolute;
+      top:0;
+      left:0;
+      
+      width: 100vw;
+      height: 100vh;
+
+      background-color: rgb(37, 113, 183);
+      
+      z-index: 10;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .menu-section.on nav {
+      display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+      position: absolute;
+      left: 11px;
+      top: 7px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+      transform: rotate(45deg) translate(2px, 3px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+      opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+      transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on nav ul {
+      text-align: center;
+      display: block;
+  }
+
+  .menu-section.on nav ul a{
+      transition-duration: 0.5s;
+      font-size: 3rem;
+      line-height: 4rem;
+      display: block;
+      
+  }
+
+}
+
+@media (max-width: 320px) {
+  #form h3 {
+      font-size: 2rem;
+  }
+}
