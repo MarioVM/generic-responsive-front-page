@@ -117,6 +117,7 @@ h3 {
     border-color: black;
     color: white;
     margin: 0px 0px 0px;
+    max-height: 3rem;
 }
 
 #l01 a {
@@ -163,8 +164,9 @@ section.hero .container {
 }
 
 section.hero h2 {
-    margin-top: 20rem;
-    font-family: "segoeuib";
+    font-size: 5.8rem;
+    margin-top: 19rem;
+    font-family: "segoeui";
 }
 
 section.hero p {
@@ -236,7 +238,53 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: white;
+}
+
+#c00 {
+    background-color: rgb(0, 114, 198);
+}
+
+#c01 {
+    background-color: rgb(44, 88, 152);
+}
+
+#c02 {
+    background-color: rgb(32, 114, 69);
+}
+
+#c03 {
+    background-color: rgb(203, 74, 50);
+}
+
+#c04 {
+    background-color: rgb(115, 55, 129);
+}
+
+#c05 {
+    background-color: rgb(0, 175, 240);
+}
+
+#c06 {
+    background-color: rgb(9, 74, 178);
+}
+
+#c07 {
+    background-color: rgb(0, 115, 198);
+}
+
+#c08 {
+    background-color: rgb(0, 147, 190);
+}
+
+#c09 {
+    background-color: rgb(85, 88, 175);
 }
 
 
@@ -330,3 +378,31 @@ FORM
 /*=============== 
 FOOTER
 ==================*/
+
+footer {
+    display: flex;
+    background-color: white;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 980px;
+    margin: 0;
+}
+
+footer img {
+    width: 150px;
+    max-width: 30rem;
+    margin-left: 20px;
+    padding: 15px 0;
+}
+
+.foo1 {
+    width: 6rem;
+    max-width: 40rem;
+    margin-left: 26rem;
+    padding: 15px 0;
+}
